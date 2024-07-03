@@ -9,6 +9,8 @@ body {
     position: fixed;
     z-index: 1000;    /* Ensures the top bar stays above other content */
     width: 100%;
+    top: 0px;
+    height: 40px;
     padding: 10px 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     background-color: black; 
@@ -21,6 +23,7 @@ body {
     top: 2%;
     left: 1%;
 }
+
 
 .about-link {
     position: absolute;
@@ -99,7 +102,6 @@ body {
 
 }
 
-
 .name {
     position: absolute;
     font-size: 15px;
@@ -129,4 +131,38 @@ body {
     height: 20px;
     left: 53%;
     bottom: 50px;
+}
+
+.Zoro {
+
+    position: absolute;
+    height: 200px;
+    width: 165px;
+    top: 140px;
+    left: 23%;
+}
+
+.about-intro{
+    position: absolute;
+    top: 180px;
+    left: 38%;
+    right: 23%;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+
+.about-me-title{
+    position: absolute;
+    top: 350px;
+    left: 23%;
+    letter-spacing: 1.5px;;
+}
+
+.about-me-paragraph {
+    position: absolute;
+    top: 380px;
+    left: 23%;
+    right: 23%;
+    letter-spacing: 1.5px;
+    line-height: 25px;
 }
