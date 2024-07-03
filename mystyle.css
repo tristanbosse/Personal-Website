@@ -1,0 +1,132 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-bar {
+    position: fixed;
+    z-index: 1000;    /* Ensures the top bar stays above other content */
+    width: 100%;
+    padding: 10px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: black; 
+
+}
+.my-signature {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+.about-link {
+    position: absolute;
+    left: 36%;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+.resume-link {
+    position: absolute;
+    left: 50%;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+
+.main-page {
+    padding: 80px 20px 20px;
+    
+}
+
+.Main-Title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    letter-spacing:3px;
+    position: absolute;
+    top: 120px;
+    left: 30%; 
+    margin-bottom: 10px; 
+    padding: 10px;
+    
+}
+
+.Fancy-Dot {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    letter-spacing:3px;
+    position: absolute;
+    top: 120px;
+    left: 58%; 
+    margin-bottom: 10px; 
+    padding: 10px;
+    color:rgba(45, 45, 221, 0.843);
+}
+
+.main-description{
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    top: 200px;
+    left: 30%; 
+    right: 30%;
+    margin-bottom: 10px; 
+    padding: 10px;
+    line-height: 25px;
+    
+}
+
+.Canada-png{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    top: 100px;
+    left: 20%;
+    size: 300px;
+}
+
+.pin {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    top: 325px;
+    left: 23%;
+
+}
+
+
+.name {
+    position: absolute;
+    font-size: 15px;
+    bottom: 70px;
+    text-align: center;
+    left: 45%;
+    letter-spacing: 1.5px;
+}
+
+.instagram {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 47%;
+    bottom: 48px;
+}
+.linkedin {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 50%;
+    bottom: 50px;
+}
+.email {
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: 53%;
+    bottom: 50px;
+}
