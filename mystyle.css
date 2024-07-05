@@ -114,7 +114,7 @@ body {
     font-size: 15px;
     bottom: 70px;
     text-align: center;
-    left: 45%;
+    left: 43%;
     letter-spacing: 1.5px;
 }
 
@@ -122,21 +122,21 @@ body {
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 47%;
+    left: 45%;
     bottom: 48px;
 }
 .linkedin {
     position: absolute;
     width: 20px;
     height: 18px;
-    left: 50%;
+    left: 48%;
     bottom: 50px;
 }
 .email {
     position: absolute;
     width: 25px;
     height: 20px;
-    left: 53%;
+    left: 51%;
     bottom: 50px;
 }
 
